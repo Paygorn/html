@@ -20,7 +20,7 @@ p::first-letter {
     color: blueviolet;
 }
 section:hover {
-    background-color: antiquewhite;
+    background-color: white;
 }
 h3,
 h4 {
@@ -56,4 +56,17 @@ h2 {
     color: white;
     font-size: 50px;
 }
-
+h4 {
+    color: black;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    background-color: orange;
+}
+.centered1 {
+    position: absolute;
+    top: 63%;
+    left:27%;
+    transform: translate(-50%, -50%);
+}
